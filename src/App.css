@@ -39,11 +39,13 @@ a .logo{
 .reqtangle{
   background-color: #495E57;
   padding-left: 320px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,550px);
+  grid-template-rows: repeat(1,550px);
+  margin-bottom: 40px;
 
 }
 .cont{
-  padding: 10px 10px;
   text-align:justify;
 }
 .little{
@@ -71,7 +73,7 @@ a .logo{
   height: 45px;
 }
 .div-img{
-  padding-left: 500px;
+  padding-left: 220px;
 }
 
 .server{
@@ -95,32 +97,43 @@ font-size: 60px;
 
 .sec-rem{
   display: flex;
+  justify-content: center;
   background-size: cover;
 }
 .art-rem{
-  border-radius: 10px 0px 10px 0px;
+  border-radius: 10px 10px 0px 0px;
   background-color: #EDEFEE;
-  width: 300px;
-  margin: 0px 10px 0px 10px;
+  width: 400px;
+  margin: 0px 15px 0px 15px;
 }
 .img-rem{
-  height: 250px;
-  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+  height: 350px;
+  width: 400px;
 }
 .div-rem-sec{
   display: flex;
+  margin-left: 30px;
 }
-.h6-rem{
-  text-align: right;
+.hh-rem{
+  float: left;
+  flex: 1;
+  margin-left: 80px;
   color: red;
   font-size: 15px;
 }
 .par-rem{
+  font-size: 25px;
   text-align: justify;
+  padding-left: 30px;
 }
-.h2-rem .h6-rem .par-rem{
-  margin-right: 10px;
+.hp-rem{
+  flex: 1;
+  float: left;
+  padding-left: 30px;
 }
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -2,8 +2,7 @@ import logo from '../assets/img/logo.jpg';
 
 function Navs(){
     return(
-        <>  
-            
+        <>
             <nav className="nav">
                 <ul>
                     <li><a href="#"><img className='logo' src={logo} alt="logo..."/>

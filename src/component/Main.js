@@ -2,12 +2,6 @@ import server from '../assets/img/1.jpg';
 function Main(){
     return(
         <>
-            <header>
-                <meta name="description" content="restaurent Little Lemon"/>
-                <meta name='og:title' content='Little Lemon'/>
-                <meta name='og:descripton' content='restaurent Little lemon'/>
-                <meta name='og:image' content='../assets/img/1.jpg'/>
-            </header>
             <div className="reqtangle">
                 <div className='cont'>
                     <h1 className='little'>Little Lemon</h1>
